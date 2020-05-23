@@ -23,7 +23,7 @@
             <hr>
             <ul class="list-group">
 
-                <li *ngFor="let autor of autores " type="button" class="list-group-item list-group-item-action">{{autor}}</li>
+                <li *ngFor="let autor of autores; let i=index" type="button" class="list-group-item list-group-item-action">{{i+1}} - {{autor}}</li>
             </ul>
         </div>
     </div>
