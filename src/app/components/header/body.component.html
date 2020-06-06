@@ -13,7 +13,7 @@
                     <p class="card-text">{{cita.frase}}</p>
                 </div>
                 <a href="#" class="btn btn-primary" (click)="cambiar()">Mostar/Ocultar</a>
-                <!--<a href="#" class="btn btn-primary" (click)="show = !show">Mostar/Ocultar</a>-->
+                <a href="#" class="btn btn-primary" (click)="show = !show">Mostar/Ocultar</a>
             </div>
 
         </div>
@@ -22,7 +22,6 @@
             <h1>*ngFor</h1>
             <hr>
             <ul class="list-group">
-
                 <li *ngFor="let autor of autores; let i=index" type="button" class="list-group-item list-group-item-action">{{i+1}} - {{autor}}</li>
             </ul>
         </div>
